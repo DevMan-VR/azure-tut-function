@@ -13,33 +13,33 @@ El unico cuidado que hay que tener es OCUPAR LA VERSIÓN DE PYTHON 3.6.8 DE 64 B
 Se inicializará la plantilla HttpTrigger de Azure Functions, podriamos decir que haremos un "hola mundo" usando PowerShell
 
 * Instalar Azure Functions Tools
-	```sh
-	$ npm install -g azure-functions-core-tools
-	```
+```sh
+$ npm install -g azure-functions-core-tools
+```
 * Crear y activar el entorno virtual, que nos permitirá correr los comandos especiales para crear azure functions
-	```sh
-	$	py -m venv .venv
-	$	.venv\scripts\activate
-	```
+```sh
+$	py -m venv .venv
+$	.venv\scripts\activate
+```
 * Crear un function project
-	```sh
-		$ func init FunctionProjectName
-	```
+```sh
+	$ func init FunctionProjectName
+```
 * Selecciona la opcion "python"
 * Ingresa al nuevo directorio creado
-	```sh
-		$ cd FunctionProjectName
-	```
+```sh
+	$ cd FunctionProjectName
+```
 * Agrega una azure function al nuevo projecto
-	```sh
-		$ func new
-	```
+```sh
+	$ func new
+```
 * Selecciona la opción HTTP trigger
 * Ponle de nombre HttpTrigger y luego presiona Enter
 * Para finalizar inicializamos el azure function
-	```sh
-		$ func host start
-	```
+```sh
+	$ func host start
+```
 * Luego accedemos al link que nos entrega la terminal de PowerShell -> http://localhost:7071/api/HttpTrigger
 * Y para testear el azure function de HTTP Trigger modificamos la url -> http://localhost:7071/api/HttpTrigger?name=TuNombre
 

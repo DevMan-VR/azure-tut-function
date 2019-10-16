@@ -53,12 +53,12 @@ $ func host start
 
 * Luego accedemos al link que nos entrega la terminal de PowerShell : (http://localhost:7071/api/HttpTrigger)
 
-![alt text](https://imgur.com/ScwhJYu)
+![alt text](https://i.imgur.com/ScwhJYu.png)
 
-![alt text](https://imgur.com/3xXmyOh)
+![alt text](https://i.imgur.com/3xXmyOh.png)
 * Y para testear el azure function de HTTP Trigger modificamos la url : (http://localhost:7071/api/HttpTrigger?name=TuNombre)
 
-![alt text](https://imgur.com/bJ3lA1F)
+![alt text](https://i.imgur.com/bJ3lA1F.png)
 
 
 [command-line-grammar]: #command-line-grammar

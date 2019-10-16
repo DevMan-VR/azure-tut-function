@@ -2,7 +2,7 @@
 
 ## ¿Por qué python?
 
-Por que hacen falta tan solo 4988 segundos para poner en pie cualquiera de las funciones plantillas... En este caso se ocupará el HttpTrigger, que es el equivalente al "Hello World" de Azure Function.
+Por que hacen falta tan solo 49,88 segundos para poner en pie cualquiera de las funciones plantillas... En este caso se ocupará el HttpTrigger, que es el equivalente al "Hello World" de Azure Function.
 
 ### Importante
 

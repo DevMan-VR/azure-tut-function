@@ -11,6 +11,7 @@ El unico cuidado que hay que tener es OCUPAR LA VERSIÓN DE PYTHON 3.6.8 DE 64 B
 ### ¿Que se hará entonces?
 
 Se inicializará la plantilla HttpTrigger de Azure Functions, podriamos decir que haremos un "hola mundo" usando PowerShell
+## Pasos
 
 * Instalar Azure Functions Tools
 ```sh

@@ -37,24 +37,26 @@ $ func init FunctionProjectName
 $ cd FunctionProjectName
 ```
 * Agrega una azure function al nuevo projecto
-![alt text](https://i.imgur.com/WWKLfvQ.png)
 ```sh
 $ func new
 ```
+
 * Selecciona la opción HTTP trigger
-![alt text](https://i.imgur.com/zf31l7i.png)
+![alt text](https://i.imgur.com/WWKLfvQ.png)
 * Ponle de nombre HttpTrigger y luego presiona Enter
+![alt text](https://i.imgur.com/zf31l7i.png)
 * Para finalizar inicializamos el azure function
 ```sh
 $ func host start
 ```
 ![alt text](https://i.imgur.com/ScwhJYu.png)
 
-* Luego accedemos al link que nos entrega la terminal de PowerShell : http://localhost:7071/api/HttpTrigger . 
+* Luego accedemos al link que nos entrega la terminal de PowerShell : (http://localhost:7071/api/HttpTrigger)
 
 ![alt text](https://imgur.com/ScwhJYu)
+
 ![alt text](https://imgur.com/3xXmyOh)
-* Y para testear el azure function de HTTP Trigger modificamos la url : http://localhost:7071/api/HttpTrigger?name=TuNombre .
+* Y para testear el azure function de HTTP Trigger modificamos la url : (http://localhost:7071/api/HttpTrigger?name=TuNombre)
 
 ![alt text](https://imgur.com/bJ3lA1F)
 

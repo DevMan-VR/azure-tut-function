@@ -29,8 +29,9 @@ $	.venv\scripts\activate
 ```sh
 $ func init FunctionProjectName
 ```
-![alt text](https://i.imgur.com/sv2475m.png)
+
 * Selecciona la opcion "python"
+![alt text](https://i.imgur.com/sv2475m.png)
 * Ingresa al nuevo directorio creado
 ```sh
 $ cd FunctionProjectName
@@ -41,18 +42,20 @@ $ cd FunctionProjectName
 $ func new
 ```
 * Selecciona la opción HTTP trigger
-* Ponle de nombre HttpTrigger y luego presiona Enter
 ![alt text](https://i.imgur.com/zf31l7i.png)
+* Ponle de nombre HttpTrigger y luego presiona Enter
 * Para finalizar inicializamos el azure function
 ```sh
 $ func host start
 ```
 ![alt text](https://i.imgur.com/ScwhJYu.png)
 
-* Luego accedemos al link que nos entrega la terminal de PowerShell -> http://localhost:7071/api/HttpTrigger
+* Luego accedemos al link que nos entrega la terminal de PowerShell : http://localhost:7071/api/HttpTrigger . 
+
 ![alt text](https://imgur.com/ScwhJYu)
 ![alt text](https://imgur.com/3xXmyOh)
-* Y para testear el azure function de HTTP Trigger modificamos la url -> http://localhost:7071/api/HttpTrigger?name=TuNombre 
+* Y para testear el azure function de HTTP Trigger modificamos la url : http://localhost:7071/api/HttpTrigger?name=TuNombre .
+
 ![alt text](https://imgur.com/bJ3lA1F)
 
 

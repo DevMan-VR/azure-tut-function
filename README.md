@@ -23,7 +23,7 @@ $ npm install -g azure-functions-core-tools
 $	py -m venv .venv
 $	.venv\scripts\activate
 ```
-![alt text][Imgur](https://i.imgur.com/D6j5HQl.png)
+![alt text](https://i.imgur.com/D6j5HQl.png)
 
 * Crear un function project
 ```sh

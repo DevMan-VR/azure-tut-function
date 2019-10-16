@@ -16,32 +16,44 @@ Se inicializará la plantilla HttpTrigger de Azure Functions, podriamos decir qu
 ```sh
 $ npm install -g azure-functions-core-tools
 ```
+
+
 * Crear y activar el entorno virtual, que nos permitirá correr los comandos especiales para crear azure functions
 ```sh
 $	py -m venv .venv
 $	.venv\scripts\activate
 ```
+![alt text](https://imgur.com/D6j5HQl)
+
 * Crear un function project
 ```sh
-	$ func init FunctionProjectName
+$ func init FunctionProjectName
 ```
+![alt text](https://imgur.com/sv2475m)
 * Selecciona la opcion "python"
 * Ingresa al nuevo directorio creado
 ```sh
-	$ cd FunctionProjectName
+$ cd FunctionProjectName
 ```
 * Agrega una azure function al nuevo projecto
+![alt text](https://imgur.com/WWKLfvQ)
 ```sh
-	$ func new
+$ func new
 ```
 * Selecciona la opción HTTP trigger
 * Ponle de nombre HttpTrigger y luego presiona Enter
+![alt text](4https://imgur.com/zf31l7i)
 * Para finalizar inicializamos el azure function
 ```sh
-	$ func host start
+$ func host start
 ```
+![alt text](https://imgur.com/MiuObEd)
+
 * Luego accedemos al link que nos entrega la terminal de PowerShell -> http://localhost:7071/api/HttpTrigger
-* Y para testear el azure function de HTTP Trigger modificamos la url -> http://localhost:7071/api/HttpTrigger?name=TuNombre
+![alt text](https://imgur.com/ScwhJYu)
+![alt text](https://imgur.com/3xXmyOh)
+* Y para testear el azure function de HTTP Trigger modificamos la url -> http://localhost:7071/api/HttpTrigger?name=TuNombre 
+![alt text](https://imgur.com/bJ3lA1F)
 
 
 [command-line-grammar]: #command-line-grammar
